@@ -10,11 +10,14 @@
     
 <script>
 
+let playerSelection = prompt("please choose either rock, paper, or scissors", "")
+
 function computerPlay() {
-    let throwOption = ["rock", "paper", "scissors"];
-    let throwChoice = throwOption[Math.floor(Math.random()*throwOption.length)];
-    alert("The Computer Chose: " + throwChoice);
+    let computerOption = ["rock", "paper", "scissors"];
+    let computerSelection = computerOption[Math.floor(Math.random()*computerOption.length)];
+    alert("the computer chose: " + computerSelection);
 }
+
 
 
 </script>
